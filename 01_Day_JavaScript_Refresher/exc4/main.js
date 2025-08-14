@@ -1,0 +1,12 @@
+let points = prompt("Enter your points")
+
+if(points < 50)
+    console.log("F")
+else if (points < 60)
+    console.log("D")
+else if (points < 70)
+    console.log("C")
+else if (points < 90)
+    console.log("B")
+else if (points < 100)
+    console.log("A")
